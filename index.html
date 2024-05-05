@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .maindiv{
+            height: 250px;
+            width: 100vw;
+            background-color: aqua;
+            text-align: center;
+            padding-top: 60px;
+            padding-bottom: -25px;
+        }
+        .button{
+            color: white;
+            background-color: black;
+            height: 40px;
+            width: 100vw;
+            display: flex;
+            padding-bottom: 25px;
+        }
+        .link{
+            height: 50px;
+            width: 60px;
+            background-color: black;
+            border: 0px;
+            font-size: larger;
+            color: white;
+            text-align: center;
+
+            
+        }
+        .link:hover{
+            background-color: rgb(208, 207, 207);
+            color: black;
+            height: 30px;
+            text-align: center;
+        }
+        .image1{
+            background-color: gray;
+            height: 200px;
+            width: 250px;
+        }
+        .image2{
+            background-color: gray;
+            height: 50px;
+            width: 250px;
+            color: white;
+        }
+        .image3{
+            background-color: grey;
+            height: 250px;
+        }
+        .image4{
+            background-color: gray;
+            height: 200px;
+        }
+        .gridcontainer{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+        .footer{
+            height: 75px;
+            background-color: lightgray;
+            text-align: center;
+            padding-top: 25px;
+            font-size: larger;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        @media screen and (max-width:480px) {
+            .maindiv{
+            height: 250px;
+            width: 100vw;
+            background-color: aqua;
+            text-align: center;
+            padding-top: 60px;
+            padding-bottom: -25px;
+        }
+        .button{
+            color: white;
+            background-color: black;
+            height: 250px;
+            width: 100vw;
+            flex-direction: column;
+            text-align: center;
+        }
+        .link{
+            height: 40px;
+            width: 60px;
+            background-color: black;
+            border: 0px;
+            font-size: larger;
+            color: white;
+            text-align: center;
+            
+        }
+        .link:hover{
+            background-color: rgb(208, 207, 207);
+            color: black;
+            height: 40px;
+        }
+        .image1{
+            background-color: gray;
+            height: 200px;
+            width: 250px;
+        }
+        .image2{
+            background-color: gray;
+            height: 50px;
+            width: 250px;
+            color: white;
+        }
+        .image3{
+            background-color: grey;
+            height: 250px;
+        }
+        .image4{
+            background-color: gray;
+            height: 200px;
+        }
+        .gridcontainer{
+            display: flex;
+            flex-direction: column;
+        }
+        .footer{
+            height: 75px;
+            background-color: lightgray;
+            text-align: center;
+            padding-top: 25px;
+            font-size: larger;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+         <h1> My website </h1>
+         <p> With a flexible layout. </p>
+    </div>
+    <div class="button">
+        <p class="link"> Link </p>
+        <p class="link"> Link </p>
+        <p class="link"> Link </p>
+        <p class="link"> Link </p>
+    </div>
+    <div class="gridcontainer">
+        <div style="padding: 20px; background-color: rgb(239, 237, 237);">
+            <h1> About Me </h1>
+            <p> Photo of me: </p>
+            <div class="image1">
+                <p> Image </p>
+            </div>
+                <p> Some text about me in culpa qui officia deserunt mollit anim..</p>
+                <h1> More Text </h1>
+                <p> Lorem ipsum dolor sit ame.</p>
+             <div class="image2">
+                <p> image </p>
+             </div> 
+             <div class="image2">
+                <p> image </p>
+             </div> 
+             <div class="image2">
+                <p> image </p>
+             </div>   
+        </div>
+        <div style="padding   : 20px;">
+            <h1> TITLE HEADING </h1>
+            <p> Title description, Dec 7, 2017 </p>
+            <div class="image3">
+                <p> img </p>
+            </div>
+            <p> Some text.. </p>
+            <p> Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <h1> TITLE HEADING </h1>
+            <p> Title description, Sep 2, 2017 </p>
+            <div class="image4"> <P> Image </P>
+                </div>
+            <p> Some text.. </p>
+            <p> Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. </p>
+        </div>
+    </div>
+    <div class="footer">
+        footer
+    </div>
+</body>
+</html>
